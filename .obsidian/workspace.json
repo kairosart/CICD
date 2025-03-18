@@ -1,0 +1,371 @@
+{
+  "main": {
+    "id": "f80166f0af003992",
+    "type": "split",
+    "children": [
+      {
+        "id": "81301f8adfcc6d3a",
+        "type": "tabs",
+        "dimension": 66.04784005712246,
+        "children": [
+          {
+            "id": "5abee70efbde0908",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Index"
+            }
+          },
+          {
+            "id": "28cce6c3dc707fca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setting up.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Setting up"
+            }
+          },
+          {
+            "id": "cc343429c054951f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Diagram.svg"
+              },
+              "icon": "lucide-image",
+              "title": "Diagram"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "916459c5b976f019",
+        "type": "tabs",
+        "dimension": 33.95215994287754,
+        "children": [
+          {
+            "id": "d06651bfdaedd19b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8d96a35ab7c063fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a9fad33424c8a7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c95a1c9e00e29c6f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "TASK 4 ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8c6106633316943f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "6c994e66ece44a7b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5
+  },
+  "right": {
+    "id": "68fd4a1bf3817dcd",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed8d21ad243611eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50c837b5ca86a21f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SITUATIONAL AWARANESS/Task 40 - SEATBELT CHECK!.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Task 40 - SEATBELT CHECK!"
+            }
+          },
+          {
+            "id": "648e1c5846054d70",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f8632ffc2433e4cb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Setting up.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Setting up"
+            }
+          },
+          {
+            "id": "71a7f3ce0cafd751",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "61095e9a01bd282c",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "bcfbb7e63beab9a7",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "e43a154cd4176e88",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "ea03c577b0ba6837",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1a85cc149fed1661",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "2bff82ee7f064632",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "5df229085f56b8c8",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "05b1ceb658ffb5c1",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "308c8448c5dda989",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "68db4ea8907312a2",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "98985a85c0c9a667",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "juggl:Juggl global graph": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "oz-clear-unused-images:Clear Unused Images": false
+    }
+  },
+  "active": "28cce6c3dc707fca",
+  "lastOpenFiles": [
+    "README.md",
+    "CDID/README.md",
+    "CDID",
+    "CI/ID/README.md",
+    "CI/ID",
+    "CI",
+    "images",
+    "Index.md",
+    "Setting up.md",
+    "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
+    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+    "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
+    "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
+    "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+    "PERSISTENCE/Task 44 - WERE TAKING OVER THIS DLL! Part II.md",
+    "NTLM RELAY/Task 48 - Ready your weapons.md",
+    "index.md",
+    "NTLM RELAY/Task 47 - Why not just turn it off?.md",
+    "NTLM RELAY/Task 46 - Now you see me, now you don't.md",
+    "PRIVILEGE ESCALATION/Task 43 - WERE TAKING OVER THIS DLL!.md",
+    "SITUATIONAL AWARANESS/Task 40 - SEATBELT CHECK!.md",
+    "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md",
+    "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
+    "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
+    "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
+    "AV EVASION/Task 35 - Wrapping the burrito.md",
+    "POST EXPLOITATION/Task 21 - From the Shadows.md",
+    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
+    "Images/Task 46 - Now you see me, now you don't-20241121143522528.webp",
+    "Images/Task 48 - Ready your weapons-20241123142537654.webp",
+    "Images/Task 47 - Why not just turn it off?-20241122150405855.webp",
+    "Images/Task 47 - Why not just turn it off?-20241122150133824.webp",
+    "Images/Task 47 - Why not just turn it off?-20241122144645114.webp",
+    "Images/Task 46 - Now you see me, now you don't-20241121145030701.webp",
+    "Images/Task 46 - Now you see me, now you don't-20241121144700066.webp",
+    "NTLM RELAY",
+    "Images/Task 44 - WERE TAKING OVER THIS DLL! Part II-20241121134539981.webp",
+    "Images/Task 44 - WERE TAKING OVER THIS DLL! Part II-20241121135040489.webp",
+    "Images/Task 44 - WERE TAKING OVER THIS DLL! Part II-20241121134947576.webp",
+    "PERSISTENCE",
+    "SITUATIONAL AWARENESS",
+    "AV EVASION",
+    "docs/lib/metadata.json",
+    "docs/lib/media"
+  ]
+}
