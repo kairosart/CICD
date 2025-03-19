@@ -6,7 +6,6 @@
       {
         "id": "81301f8adfcc6d3a",
         "type": "tabs",
-        "dimension": 66.04784005712246,
         "children": [
           {
             "id": "5abee70efbde0908",
@@ -39,36 +38,37 @@
             }
           },
           {
+            "id": "b2f02f99216d2890",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "What is CI-CD and Build Security?.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "What is CI-CD and Build Security?"
+            }
+          },
+          {
             "id": "cc343429c054951f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Images/Diagram.svg"
+                "file": "Creating your own Pipeline.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Diagram"
+              "icon": "lucide-file",
+              "title": "Creating your own Pipeline"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "916459c5b976f019",
-        "type": "tabs",
-        "dimension": 33.95215994287754,
-        "children": [
-          {
-            "id": "d06651bfdaedd19b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "right": {
     "id": "68fd4a1bf3817dcd",
@@ -319,22 +320,30 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6c994e66ece44a7b",
+  "active": "28cce6c3dc707fca",
   "lastOpenFiles": [
-    "images/Setting up-20250318201956293.webp",
-    "images/Setting up-20250318200238620.webp",
-    "images/Setting up-20250318200105066.webp",
-    "images/Setting up-20250318200024252.webp",
-    "images/Setting up-20250318195909237.webp",
+    "Setting up-20250319213656176.webp",
+    "Setting up-20250319212906155.webp",
+    "Creating your own Pipeline.md",
+    "Creating your own Pipeline-20250319205100619.webp",
+    "Creating your own Pipeline-20250319204701220.webp",
+    "Creating your own Pipeline-20250319204625833.webp",
+    "Creating your own Pipeline-20250319204550692.webp",
+    "Creating your own Pipeline-20250319203504173.webp",
+    "Creating your own Pipeline-20250319203421602.webp",
+    "Creating your own Pipeline-20250319203214621.webp",
+    "What is CI-CD and Build Security?.md",
+    "Creating your own Pipeline-20250319201459439.webp",
+    "Creating your own Pipeline-20250319193905987.webp",
+    "Setting up.md",
+    "images",
     "README.md",
     "CDID/README.md",
     "CDID",
     "CI/ID/README.md",
     "CI/ID",
     "CI",
-    "images",
     "Index.md",
-    "Setting up.md",
     "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
     "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
     "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
@@ -353,14 +362,6 @@
     "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
     "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
     "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
-    "AV EVASION/Task 35 - Wrapping the burrito.md",
-    "POST EXPLOITATION/Task 21 - From the Shadows.md",
-    "Images/Task 46 - Now you see me, now you don't-20241121143522528.webp",
-    "Images/Task 48 - Ready your weapons-20241123142537654.webp",
-    "Images/Task 47 - Why not just turn it off?-20241122150405855.webp",
-    "Images/Task 47 - Why not just turn it off?-20241122150133824.webp",
-    "Images/Task 47 - Why not just turn it off?-20241122144645114.webp",
-    "Images/Task 46 - Now you see me, now you don't-20241121145030701.webp",
     "NTLM RELAY",
     "PERSISTENCE",
     "SITUATIONAL AWARENESS",

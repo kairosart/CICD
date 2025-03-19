@@ -49,4 +49,38 @@ As you make your way through the network, you will need to prove your compromise
 
 **Note: If the network has been reset or you have joined a new subnet after your time in the network expired, your Mother account will remain active.**
 
+
+---
+
+# Your job
+
+1. Connect via SSH to 10.200.3.250 with the following credentials.
+
+| **SSH Username** | mother          |
+| ---------------- | --------------- |
+| **SSH Password** | motherknowsbest |
+
+```
+ssh mother@10.200.3.250
+```
+
+![[Setting up-20250319212906155.webp]]
+
+2. Select 1 and respond all the questions.
+3. Save the details.
+#### Details
+	Username: kairosdev
+	Password: W77NJQ2Po9W9yzmp
+	MailAddr: kairosdev@tryhackme.loc
+	IP Range: 10.200.3.0/24
+
+![[Setting up-20250319213656176.webp]]
+
+
+
+**Next step:** [[What is CI-CD and Build Security?]]
+
+
+---
+
 [^1]: Jenkins is an open-source automation server widely used in DevOps for building, testing, and deploying software applications.
