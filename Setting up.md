@@ -82,5 +82,5 @@ ssh mother@10.200.3.250
 
 
 ---
-
+## Footnotes
 [^1]: Jenkins is an open-source automation server widely used in DevOps for building, testing, and deploying software applications.

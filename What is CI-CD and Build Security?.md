@@ -30,7 +30,7 @@ So what does a typical CI/CD-enabled pipeline look like? The network diagram of
 
 - **Developer workstations** - Where the coding magic happens, developers craft and build code. In this network, this is simulated through your AttackBox.  
 
-- **Source code storage solution** - This is a central placeholder to store and track different code versions. This is the Gitlab server found in our network.  
+- **Source code storage solution** - This is a central placeholder to store and track different code versions. This is the G![[Diagram.svg]]itlab server found in our network.  
 
 - **Build orchestrator** - Coordinates and manages the automation of the build and deployment environments. Both Gitlab and Jenkins are used as build servers in this network.  
 

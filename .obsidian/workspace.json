@@ -66,9 +66,24 @@
               "icon": "lucide-file",
               "title": "Creating your own Pipeline"
             }
+          },
+          {
+            "id": "e3615737a5638be2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Securing the Build Source.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Securing the Build Source"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,12 +137,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "right": {
     "id": "68fd4a1bf3817dcd",
@@ -170,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Setting up.md",
+                "file": "Securing the Build Source.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Setting up"
+              "title": "Outline of Securing the Build Source"
             }
           },
           {
@@ -320,22 +334,23 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "28cce6c3dc707fca",
+  "active": "e3615737a5638be2",
   "lastOpenFiles": [
-    "Setting up-20250319213656176.webp",
-    "Setting up-20250319212906155.webp",
-    "Creating your own Pipeline.md",
-    "Creating your own Pipeline-20250319205100619.webp",
-    "Creating your own Pipeline-20250319204701220.webp",
-    "Creating your own Pipeline-20250319204625833.webp",
-    "Creating your own Pipeline-20250319204550692.webp",
-    "Creating your own Pipeline-20250319203504173.webp",
-    "Creating your own Pipeline-20250319203421602.webp",
-    "Creating your own Pipeline-20250319203214621.webp",
-    "What is CI-CD and Build Security?.md",
-    "Creating your own Pipeline-20250319201459439.webp",
-    "Creating your own Pipeline-20250319193905987.webp",
     "Setting up.md",
+    "Creating your own Pipeline.md",
+    "Securing the Build Source.md",
+    "What is CI-CD and Build Security?.md",
+    "images/Setting up-20250319212906155.webp",
+    "images/Creating your own Pipeline-20250319193905987.webp",
+    "images/Creating your own Pipeline-20250320205651373.webp",
+    "images/Creating your own Pipeline-20250320205531616.webp",
+    "images/Creating your own Pipeline-20250320204332513.webp",
+    "images/Creating your own Pipeline-20250320204205318.webp",
+    "images/Creating your own Pipeline-20250320204119865.webp",
+    "Diagram.svg.xml",
+    "Diagram.svg",
+    "images/Setting up-20250319213656176.webp",
+    "images/Creating your own Pipeline-20250319205100619.webp",
     "images",
     "README.md",
     "CDID/README.md",
@@ -361,12 +376,10 @@
     "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md",
     "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
     "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
-    "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
     "NTLM RELAY",
     "PERSISTENCE",
     "SITUATIONAL AWARENESS",
     "AV EVASION",
-    "docs/lib/metadata.json",
-    "docs/lib/media"
+    "docs/lib/metadata.json"
   ]
 }

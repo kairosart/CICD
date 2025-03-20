@@ -145,6 +145,43 @@ Once done, your build process will have started! We can follow the process by cl
 
 ![[Creating your own Pipeline-20250319205100619.webp]]
 
+Once there, you should see that your pipeline has kicked off! Click on the pipeline to view which job it is currently performing and the output thereof:
+
+![[Creating your own Pipeline-20250320204119865.webp]]
+
+You can also click on the pipeline to view its progress:
+
+![[Creating your own Pipeline-20250320204205318.webp]]
+
+Once completed, your application will have been deployed! You can verify this by navigating to [http://127.0.0.1:8081/](http://127.0.0.1:8081/), and you should be met by the web application homepage.
+
+![[Creating your own Pipeline-20250320204332513.webp]]
+
+Congrats! You have created your very own CI/CD pipeline and build process! Feel free to play around more with the CI/CD pipeline configuration and your runner!
+
+>[!Note]
+>If you wish to remove the website, you can use `sudo su gitlab-runner` followed by `screen -r` to connect to the screen that is hosting your website. From here, you will be able to terminate the website.
+
+
+---
+
+
+
+>[!Question]
+>1. What is the name of the build agent that can be used with Gitlab?
+>`Gitlab Runner`
+>2. What is the value of the flag you receive once authenticated to Timekeep?
+>Go to "Project Overview" and click on README.md. There you'll get the credentials to log in on Timekeep Server.
+>`admin:admin`
+>Go to Timekeep Server and log in.
+>You'll get the flag.
+>`THM{Welcome.to.CICD.Pipelines}`
+
+
+
+**Next step: **[[Securing the Build Source]]
+
+---
 
 ## Footnotes
 [^1]: Continuous Integration is a software development practice that involves automatically building, testing and implementing changes to an application's source code
