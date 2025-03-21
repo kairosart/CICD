@@ -85,17 +85,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Securing the Build Process.md",
+                "file": "Securing the Build Source.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Securing the Build Process"
+              "title": "Securing the Build Source"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -196,13 +196,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Securing the Build Process.md",
+                "file": "Securing the Build Source.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Securing the Build Process"
+              "title": "Outline of Securing the Build Source"
             }
           },
           {
@@ -346,11 +346,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d9cacf104db0b8ec",
+  "active": "e3615737a5638be2",
   "lastOpenFiles": [
+    "Securing the Build Process.md",
     "images/Securing the Build Source-20250321200135628.webp",
     "Setting up.md",
-    "Securing the Build Process.md",
     "Securing the Build Source.md",
     "What is CI-CD and Build Security?.md",
     "images/Securing the Build Source-20250321202256661.webp",
