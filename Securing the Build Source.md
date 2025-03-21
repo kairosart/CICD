@@ -56,3 +56,63 @@ As mentioned before, the script provided is not stealthy. Rather than first dete
 
 As you will see, line 5 of the script requires a Gitlab authentication token. Gitlab does not allow for its API to be interfaced with using credentials, as this is deemed insecure. Therefore, to use the script, we will first have to generate an API token for our account. Authenticate to the Gitlab server and perform the following steps:
 
+1. Click on your profile icon and select Preferences:
+	![[Securing the Build Source-20250321200135628.webp]]
+	
+2. Click on Access Tokens:
+	![[Securing the Build Source-20250321200236047.webp]]
+3. Enter a name for a new API token and select the api, read_api, and read_repository scopes:
+	![[Securing the Build Source-20250321200535101.webp]]
+4. Click Create personal access token, reveal, and copy your access token to a safe location:
+	![[Securing the Build Source-20250321200701599.webp]]
+	
+>[!Note]
+>Personal access token:
+>`glpat-yEXX3ewe7ix-9hLB6jvu`
+
+#Attacking_Machine
+5. Create the `enumerator.py` script.
+6. Add the token to the script and execute it to download all repos:
+	![[Securing the Build Source-20250321202256661.webp]]
+Now you have successfully downloaded all of the publicly available repos! At this point, there are several ways you can look for sensitive information. The easiest would be to extract all repos and run a grep for specific keywords, such as `secret`. Make sure to read through the available repos to find the hidden secret flag! 
+
+>[!warning]
+Don't change the name of the script (enumerator.py) as it will throw errors!
+
+## Securing the Build Source
+
+Granular access control is crucial to managing repositories and the GitLab platform. It involves defining specific permissions and restrictions for different users or groups, ensuring that only authorised individuals have the appropriate level of access to sensitive resources. This helps maintain security, confidentiality, and effective collaboration within a development environment.
+
+In GitLab, group-based access control is a powerful mechanism that simplifies permissions management across multiple repositories and projects. Here's how it works:
+
+1. **Group-Based Access Control**: GitLab allows you to organise projects into groups. Instead of managing access for each project separately, you can set permissions at the group level. This means that the same access rules apply to all projects within the group, making it easier to maintain consistent security policies. For example, you can create a group for the development team and define permissions, such as who can view, edit, or contribute to projects within that group. This approach streamlines access management and reduces the chances of errors or oversights when configuring permissions for individual repositories.
+2. **Access Levels** : GitLab offers different access levels, such as Guest, Reporter, Developer, Maintainer, and Owner. Each level comes with specific capabilities and permissions. Assigning the appropriate access level to each user or group ensures they have the necessary privileges without granting unnecessary permissions.
+3. **Sensitive Information Protection** : One critical consideration is preventing the accidental exposure of sensitive information. GitLab provides features to help with this:
+
+4. **GitLab's .gitignore** : This file specifies which files or directories should be excluded from version control. It's crucial for preventing sensitive data like passwords, API keys, and configuration files from being committed to repositories.
+5. **Environment Variables** : GitLab allows you to define and manage environment variables securely, separate from the source code. This is especially useful for storing sensitive data needed during the CI/CD process without exposing it in the repository.
+6. **Branch Protection** : Branches, like master or main, can be protected to prevent direct pushes, ensuring that changes go through code review and automated testing before merging.
+
+Remember, maintaining the security of both the repositories and the GitLab instance itself requires constant vigilance and best practices:
+
+- Review and update access permissions regularly as team members change roles or leave the organisation.
+- Implement two-factor authentication (2FA) to add an extra layer of security to user accounts.
+- Monitor audit logs to track who has accessed or modified repositories and projects.
+- Regularly scan repositories for sensitive information using tools designed for this purpose.
+
+
+---
+>[!Question]
+>1. Which file specifies which directories and files should be excluded for version control?
+>`.gitignore`
+>2. What can you protect to ensure direct pushes and vulnerable code changes are avoided?
+>`Branches`
+>3. What issue does lack of access control and unauthorised code changes lead to?
+>`Tnauthorised Tampering`
+>4. What is the API key stored within the Mobile application that can be accessed by any Gitlab user?
+>- Unzip Mobile `App_7ab91f90-f077-4817-bd05-5fc956ab21bd.zip`.
+>- Run: `grep -r "THM" .`
+>`THM{You.Found.The.API.Key}`
+
+
+**Next step:**  [[Securing the Build Process]]

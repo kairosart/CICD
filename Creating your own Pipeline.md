@@ -6,6 +6,11 @@ Before we explore misconfigurations, it is worth us first creating our very own 
 
 We will start the process by creating an account on the GitLab instance. Navigate to [http://gitlab.tryhackme.loc](http://gitlab.tryhackme.loc/) and select the **Register Now** option on the page. Fill in the required details to create your account and register. Remember to select a secure password and save it for your journey through this network! Once authenticated, you should be met by this page:
 
+Username: kairos
+Email: kairosdev@protonmail.com
+Password: `E^~C*V=hPB7#*h$`
+
+
 ![[Creating your own Pipeline-20250319193905987.webp]]
 
 Feel free to explore the features of the Gitlab server. Gitlab is quite similar to Github; however, it allows you to host your very own server!
@@ -155,7 +160,13 @@ You can also click on the pipeline to view its progress:
 
 Once completed, your application will have been deployed! You can verify this by navigating to [http://127.0.0.1:8081/](http://127.0.0.1:8081/), and you should be met by the web application homepage.
 
+Credentials:
+User: `admin`
+Password: `admin`
+
 ![[Creating your own Pipeline-20250320204332513.webp]]
+
+![[Creating your own Pipeline-20250321194336493.webp]]
 
 Congrats! You have created your very own CI/CD pipeline and build process! Feel free to play around more with the CI/CD pipeline configuration and your runner!
 
@@ -179,7 +190,7 @@ Congrats! You have created your very own CI/CD pipeline and build process! Fee
 
 
 
-**Next step: **[[Securing the Build Source]]
+**Next step: [[Securing the Build Source]]
 
 ---
 
