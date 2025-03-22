@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -196,13 +196,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Securing the Build Source.md",
+                "file": "Securing the Build Process.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Securing the Build Source"
+              "title": "Outline of Securing the Build Process"
             }
           },
           {
@@ -348,24 +348,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3615737a5638be2",
+  "active": "d9cacf104db0b8ec",
   "lastOpenFiles": [
+    "Diagram.svg",
+    "Securing the Build Process.md",
+    "Securing the Build Source-20250322120405046.webp",
+    "images/Creating your own Pipeline-20250321194336493.webp",
+    "Securing the Build Source.md",
     "secret_encoded.txt",
     "id_rsa_gitkraken.pub",
     "id_rsa_gitkraken",
-    "Securing the Build Source-20250322120603749.webp",
-    "Securing the Build Source-20250322120405046.webp",
-    "Securing the Build Process.md",
+    "images/Securing the Build Source-20250322120603749.webp",
     "images/Securing the Build Source-20250321200135628.webp",
     "Setting up.md",
-    "Securing the Build Source.md",
     "What is CI-CD and Build Security?.md",
     "images/Securing the Build Source-20250321202256661.webp",
     "Creating your own Pipeline.md",
     "images/Securing the Build Source-20250321200701599.webp",
     "images/Securing the Build Source-20250321200535101.webp",
     "images/Securing the Build Source-20250321200236047.webp",
-    "Creating your own Pipeline-20250321194336493.webp",
     "images/Setting up-20250319212906155.webp",
     "images/Creating your own Pipeline-20250319193905987.webp",
     "Diagram.svg.xml",
@@ -394,7 +395,6 @@
     "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md",
     "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
     "NTLM RELAY",
-    "PERSISTENCE",
-    "SITUATIONAL AWARENESS"
+    "PERSISTENCE"
   ]
 }
