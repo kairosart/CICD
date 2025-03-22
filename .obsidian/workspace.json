@@ -324,13 +324,23 @@
               "icon": "ag-style",
               "title": "Juggl style"
             }
+          },
+          {
+            "id": "33edd698edae30a6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 15
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -343,11 +353,13 @@
       "workspaces:Manage workspace layouts": false,
       "juggl:Juggl global graph": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "e3615737a5638be2",
   "lastOpenFiles": [
+    "secret_encoded.txt",
     "Securing the Build Source-20250322120603749.webp",
     "Securing the Build Source-20250322120405046.webp",
     "Securing the Build Process.md",
@@ -363,7 +375,6 @@
     "Creating your own Pipeline-20250321194336493.webp",
     "images/Setting up-20250319212906155.webp",
     "images/Creating your own Pipeline-20250319193905987.webp",
-    "images/Creating your own Pipeline-20250320205651373.webp",
     "Diagram.svg.xml",
     "images",
     "README.md",
