@@ -324,23 +324,14 @@
               "icon": "ag-style",
               "title": "Juggl style"
             }
-          },
-          {
-            "id": "33edd698edae30a6",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -360,6 +351,8 @@
   "active": "e3615737a5638be2",
   "lastOpenFiles": [
     "secret_encoded.txt",
+    "id_rsa_gitkraken.pub",
+    "id_rsa_gitkraken",
     "Securing the Build Source-20250322120603749.webp",
     "Securing the Build Source-20250322120405046.webp",
     "Securing the Build Process.md",
@@ -402,8 +395,6 @@
     "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
     "NTLM RELAY",
     "PERSISTENCE",
-    "SITUATIONAL AWARENESS",
-    "AV EVASION",
-    "docs/lib/metadata.json"
+    "SITUATIONAL AWARENESS"
   ]
 }
