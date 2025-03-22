@@ -21,33 +21,7 @@ This is the second misconfiguration that comes into play. Developers of our bank
 
 You have already registered a profile on the GitLab instance. While you can use manual enumeration to find sensitive information in repos, where you are on a red team, you will need to automate this process to ensure stealth and efficiency. We will not be teaching both in this task for obvious reasons, so let's look at how we can make the process efficient. To efficiently enumerate publicly visible repos, we will make use of the Gitlab API and a Python script as follows:
 
-```
-import gitlab
-import uuid
-
-# Create a Gitlab connection
-gl = gitlab.Gitlab("http://gitlab.tryhackme.loc/", private_token='REPLACE_ME')
-gl.auth()
-
-# Get all Gitlab projects
-projects = gl.projects.list(all=True)
-
-# Enumerate through all projects and try to download a copy
-for project in projects:
-    print ("Downloading project: " + str(project.name))
-    #Generate a UID to attach to the project, to allow us to download all versions of projects with the same name
-    UID = str(uuid.uuid4())
-    print (UID)
-    try:
-        repo_download = project.repository_archive(format='zip')
-        with open (str(project.name) + "_" + str(UID) +  ".zip", 'wb') as output_file:
-            output_file.write(repo_download)
-    except Exception as e:
-        # Based on permissions, we may not be able to download the project
-        print ("Error with this download")
-        print (e)
-        pass
-```
+![[Securing the Build Source-20250322120603749.webp]]
 
 >[!Note]
 >Make sure to install the Gitlab pip package using `pip3 install python-gitlab==3.15.0`.
