@@ -68,7 +68,7 @@ As you will see, line 5 of the script requires a Gitlab authentication token. Gi
 	
 >[!Note]
 >Personal access token:
->On `.env` file.
+>`glpat-yEXX3ewe7ix-9hLB6jvu`
 
 #Attacking_Machine
 5. Create the `enumerator.py` script.
