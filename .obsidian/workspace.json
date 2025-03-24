@@ -153,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "right": {
     "id": "68fd4a1bf3817dcd",
@@ -344,8 +345,7 @@
       "workspaces:Manage workspace layouts": false,
       "juggl:Juggl global graph": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-git:Open Git source control": false
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
   "active": "d9cacf104db0b8ec",
